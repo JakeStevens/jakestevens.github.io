@@ -1,0 +1,33 @@
+baseURL = 'https://jakestevens.github.io/'
+relativeURLs = true
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'cactus'
+
+[params]
+  colortheme = "white"
+  description = "A blog about things."
+  mainSection = "posts"
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 5
+  tagsOverview = true
+  showProjectsList = false
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 2
+
+[[menu.main]]
+  name = "Writings"
+  url = "/posts"
+  weight = 3
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/jakestevens"
