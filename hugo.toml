@@ -1,4 +1,4 @@
-baseURL = 'https://jakestevens.github.io/'
+baseURL = 'https://jrstevens.me/'
 relativeURLs = true
 languageCode = 'en-us'
 title = 'My New Hugo Site'
